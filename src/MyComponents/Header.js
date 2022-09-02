@@ -1,6 +1,7 @@
 import React from 'react' 
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import './Header.css'
 
 export default function header(props) {
   return (
@@ -18,7 +19,7 @@ export default function header(props) {
           <li className="nav-item">
             <Link className="nav-link" to="/about">About</Link>
           </li>
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </Link>
@@ -28,7 +29,7 @@ export default function header(props) {
               <li><hr className="dropdown-divider"/></li>
               <li><Link className="dropdown-item" to="#">Something else here</Link></li>
             </ul>
-          </li>
+          </li> */}
           
         </ul>
         
