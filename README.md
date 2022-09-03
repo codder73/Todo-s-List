@@ -1,3 +1,6 @@
+This website is deployed on the internet and the url is-
+todosbydagar.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
