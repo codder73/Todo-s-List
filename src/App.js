@@ -7,7 +7,6 @@ import {AddTodo} from './MyComponents/addTodo';
 import { About } from './MyComponents/About';
 import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {Nothing} from './MyComponents/Nothing'
 
 function App(){
   let initTodo;
